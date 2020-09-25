@@ -3,11 +3,11 @@
 #include <BlynkSimpleEsp8266.h> 
 // You should get Auth Token in the Blynk App. 
 // Go to the Project Settings (nut icon). 
-char auth[] = "abd1811e39b743dab2e54c54a306cd7a"; 
+char auth[] = //"your auth key"; 
 // Your WiFi credentials. 
 // Set password to "" for open networks. 
-char ssid[] = "div"; 
-char pass[] = ""; 
+char ssid[] = //"your network ssid"; 
+char pass[] = //"your network password"; 
 int PWMR=4;//Right side 
 int PWML=5;//Left side 
 int FL=14;//Left forward
